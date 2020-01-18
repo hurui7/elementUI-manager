@@ -2,7 +2,7 @@
   <div id="app">
     <div class="parentDiv">
       <div class="header">
-        <div class="word">Admin 1.0</div>
+        <router-link to="./"> <div class="word">Admin 1.0</div></router-link>
       </div>
       <div style="height:calc(100% - 48px);;">
         <HelloWorld style="height:100%"></HelloWorld>
@@ -13,25 +13,13 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import axios from "./api/index.js";
 
 export default {
   name: "app",
   components: {
     HelloWorld
   },
-  created() {
-    axios
-      .test()
-      .then(function(res) {
-        window.console.log(res);
-        return res;
-      })
-      .catch(function(error) {
-        window.console.log(error);
-        return error;
-      });
-  }
+  created() {}
 };
 </script>
 

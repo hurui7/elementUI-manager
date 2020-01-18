@@ -3,7 +3,7 @@
     <el-col :span="4" style="height:100%;background:#1a1b20"
       ><bar></bar
     ></el-col>
-    <el-col :span="20">
+    <el-col :span="20" style="height:100%;background-color:#eee">
       <router-view></router-view>
     </el-col>
   </div>

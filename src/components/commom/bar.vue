@@ -41,3 +41,8 @@
     </el-menu>
   </div>
 </template>
+<style scoped>
+.el-menu {
+  border: 0px !important;
+}
+</style>
