@@ -11,5 +11,8 @@ export default {
   systemnumber() {
     //取首页的表格数据
     return axios.get("/systemnumber");
+  },
+  queryAdmin() {
+    return axios.get("/queryAdmin"); //查询管理员
   }
 };

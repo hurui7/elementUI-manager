@@ -8,6 +8,11 @@ export default new Router({
       path: "/",
       name: "homePage",
       component: () => import("./components/homePage/homePage.vue")
+    },
+    {
+      path: "/userPlan",
+      name: "userPlan",
+      component: () => import("./components/userPlan/userPlan.vue")
     }
   ]
 });
