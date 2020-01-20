@@ -13,6 +13,11 @@ export default new Router({
       path: "/userPlan",
       name: "userPlan",
       component: () => import("./components/userPlan/userPlan.vue")
+    },
+    {
+      path: "/echarts",
+      name: "echarts",
+      component: () => import("./components/echarts/echarts.vue")
     }
   ]
 });
